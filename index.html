@@ -7,7 +7,7 @@
 </head>
 <body>
     <!-- Listas Não - Ordenadas -->
-    <ul>
+    <ul style="list-style: square;">
       <li>Maça</li>   
       <li>Banana</li>
       <li>Mamão</li>
@@ -15,7 +15,7 @@
     </ul>
     <!-- Listas Ordenadas -->
     <h1>Passos para clonar um repositório</h1>
-    <ol>
+    <ol type="A">
       <li>Cria um repositório no github</li>
       <li>Copia a URL do repositório</li>
       <li>Abre o terminal</li>
@@ -23,6 +23,14 @@
       <li>Muda de pasta: cd nome_do_repositorio</li>
       <li>Dá o comando para entrar no vscode: code .</li>
     </ol>
+
+      <h1>Após atualizar o código</h1>
+    <ol start="7">
+        <li>git add .</li>
+        <li>git commit -m "descricao"</li>
+        <li>git push origin main</li>
+    </ol>
+
     <!-- Lista de Descrição -->
     <h1>Stacks do Curso</h1>
     <dl>
@@ -43,7 +51,6 @@
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#contato">Contato</a></li>
         </ul>
-
     </nav>
 
     <!-- Sumary/Details -->
@@ -68,7 +75,5 @@
           </details>
         </li>
       </ul>
-
-
 </body>
 </html>
